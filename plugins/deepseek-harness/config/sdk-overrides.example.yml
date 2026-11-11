@@ -1,0 +1,4 @@
+# Optional Harness SDK profile patches belong here only when a provider cannot
+# be configured in Harness itself. Keep API keys in Harness credentials or the
+# environment; never put secret values in this file.
+[]

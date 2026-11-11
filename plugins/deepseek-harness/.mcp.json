@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "deepseek-harness": {
+      "command": "node",
+      "args": ["${PLUGIN_ROOT}/src/server.mjs"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

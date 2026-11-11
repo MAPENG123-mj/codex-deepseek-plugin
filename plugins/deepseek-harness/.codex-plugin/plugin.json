@@ -1,0 +1,8 @@
+{
+  "name": "deepseek-harness",
+  "version": "0.1.4",
+  "description": "Delegate local research and coding tasks to DeepSeek Harness, then review the raw result and workspace changes in Codex.",
+  "skills": "./skills/",
+  "onboardingSkill": "./skills/deepseek-harness/SKILL.md",
+  "mcpServers": "./.mcp.json"
+}

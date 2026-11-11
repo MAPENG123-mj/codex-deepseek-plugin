@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deepseek-harness",
+  "version": "0.1.4",
+  "description": "Delegate local research and coding tasks to DeepSeek Harness, then review the raw result and workspace changes in Codex.",
+  "license": "MIT",
+  "keywords": ["codex", "deepseek", "harness", "mcp", "coding-agent"],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/deepseek-harness/SKILL.md",
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "DeepSeek Harness",
+        "shortDescription": "Delegate local tasks to Harness and review results in Codex.",
+        "longDescription": "Use a local DeepSeek Harness SDK runtime for read-only research, code review, or workspace-scoped implementation. Codex receives the raw Harness response and independently reviews changes.",
+        "developerName": "DeepSeek Harness community",
+        "category": "Developer tools",
+        "capabilities": ["Read", "Write"]
+      }
+    }
+  }
+}

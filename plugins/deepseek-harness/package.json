@@ -1,0 +1,14 @@
+{
+  "name": "deepseek-harness-codex",
+  "version": "0.1.4",
+  "description": "Local Codex desktop plugin for delegating research and coding tasks to DeepSeek Harness.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
